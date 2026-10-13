@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -6,17 +7,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_dark">
+=======
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
     <TextView
         android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SQLite and JSON Practical"
+<<<<<<< HEAD
         android:textColor="@color/text_primary"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginStart="16dp"
+=======
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
@@ -24,15 +40,20 @@
         android:id="@+id/recyclerViewPersons"
         android:layout_width="0dp"
         android:layout_height="0dp"
+<<<<<<< HEAD
         android:layout_marginTop="12dp"
         android:clipToPadding="false"
         android:paddingBottom="88dp"
+=======
+        android:layout_margin="10dp"
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
         app:layout_constraintTop_toBottomOf="@id/txtTitle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:listitem="@layout/person_item"/>
 
+<<<<<<< HEAD
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabRefresh"
         android:layout_width="wrap_content"
@@ -46,4 +67,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+=======
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 </androidx.constraintlayout.widget.ConstraintLayout>

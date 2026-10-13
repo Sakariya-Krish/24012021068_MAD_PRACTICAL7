@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
 
     <color name="bg_dark">#121212</color>
     <color name="card_bg">#1E1E1E</color>
@@ -14,4 +15,8 @@
 
     <color name="white">#FFFFFF</color>
 
+=======
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 </resources>

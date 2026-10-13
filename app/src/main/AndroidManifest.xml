@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
+=======
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,7 +16,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/Theme._24012021068_Practical7">
+=======
+        android:theme="@style/Theme._24012021068_MAD_PRACTICAL_7">
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -23,7 +33,12 @@
         </activity>
         <activity
             android:name=".MapActivity"
+<<<<<<< HEAD
             android:exported="false" />
+=======
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
     </application>
 
 </manifest>

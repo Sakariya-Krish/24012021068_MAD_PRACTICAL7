@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -10,10 +11,18 @@
     app:cardBackgroundColor="@color/card_bg"
     app:cardCornerRadius="16dp"
     app:cardElevation="0dp">
+=======
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:padding="16dp">
 
         <ImageView
@@ -27,11 +36,23 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
+=======
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
         <TextView
             android:id="@+id/txtName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/text_primary"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -41,11 +62,21 @@
             app:layout_constraintStart_toEndOf="@id/btnMap"
             app:layout_constraintEnd_toStartOf="@id/btnDelete"
             app:layout_constraintTop_toTopOf="parent"/>
+=======
+            android:text="Yesenia Yang"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@id/imgProfile"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"
+            app:layout_constraintTop_toTopOf="@id/imgProfile"
+            android:layout_marginStart="12dp"/>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
         <TextView
             android:id="@+id/txtPhone"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/text_secondary"
             android:textSize="14sp"
             android:layout_marginTop="2dp"
@@ -53,11 +84,18 @@
             app:layout_constraintStart_toStartOf="@id/txtName"
             app:layout_constraintEnd_toStartOf="@id/btnDelete"
             app:layout_constraintTop_toBottomOf="@id/txtName"/>
+=======
+            android:text="+917983385148"
+            app:layout_constraintTop_toBottomOf="@id/txtName"
+            app:layout_constraintStart_toStartOf="@id/txtName"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"/>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
         <TextView
             android:id="@+id/txtEmail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/text_secondary"
             android:textSize="14sp"
             android:layout_marginTop="2dp"
@@ -65,11 +103,18 @@
             app:layout_constraintStart_toStartOf="@id/txtName"
             app:layout_constraintEnd_toStartOf="@id/btnDelete"
             app:layout_constraintTop_toBottomOf="@id/txtPhone"/>
+=======
+            android:text="yesenia_yang@gnu.ac.in"
+            app:layout_constraintTop_toBottomOf="@id/txtPhone"
+            app:layout_constraintStart_toStartOf="@id/txtName"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"/>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
         <TextView
             android:id="@+id/txtAddress"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:textColor="@color/text_secondary"
             android:textSize="14sp"
             android:layout_marginTop="2dp"
@@ -90,6 +135,36 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"/>
+=======
+            android:text="16 Sackett Street, Courtland"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnDelete"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/txtName"
+            app:layout_constraintTop_toBottomOf="@id/txtEmail"
+            app:layout_constraintVertical_bias="0.4" />
+
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FF1493"
+            android:src="@android:drawable/ic_menu_delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.064" />
+
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:src="@android:drawable/ic_dialog_map"
+            android:backgroundTint="#2196F3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnDelete"/>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

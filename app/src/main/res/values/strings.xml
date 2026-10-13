@@ -1,4 +1,5 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">24012021068_Practical7</string>
 
         <string name="refresh_data">Refresh Data</string>
@@ -7,4 +8,7 @@
 
         <string name="delete_person">Delete Person</string>
 
+=======
+    <string name="app_name">24012021068_MAD_PRACTICAL_7</string>
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 </resources>

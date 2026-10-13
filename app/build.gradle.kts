@@ -3,16 +3,30 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.a24012021068_practical7"
+=======
+    namespace = "com.example.a24012021068_mad_practical_7"
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
         }
     }
+<<<<<<< HEAD
 
     defaultConfig {
         applicationId = "com.example.a24012021068_practical7"
         minSdk = 26
+=======
+    buildFeatures {
+        viewBinding = true
+    }
+
+    defaultConfig {
+        applicationId = "com.example.a24012021068_mad_practical_7"
+        minSdk = 24
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -31,9 +45,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
+<<<<<<< HEAD
     buildFeatures {
         viewBinding = true
     }
+=======
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 }
 
 dependencies {

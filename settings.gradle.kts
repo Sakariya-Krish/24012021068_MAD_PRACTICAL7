@@ -22,6 +22,10 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "24012021068_Practical7"
+=======
+rootProject.name = "24012021068_MAD_PRACTICAL_7"
+>>>>>>> 183495ad9cac8e2a672ea4d1693c85357ee8ba94
 include(":app")
  
